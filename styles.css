@@ -3,15 +3,36 @@ body, html{
     background-color: black;
 }
 header{
-    background-color: black;
     position: fixed;
+    background-color: black;
     display: flex;
-    width: 98%;
-    height: 35px;
     flex-direction: row;
-    border-bottom: 1px solid rgb(56,127,181);
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
     padding: 15px;
+    border-bottom: 1px solid rgb(56,127,181);
+    height: 35px;
 }
-.whiteColor{
-    color: white;
+
+nav , nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color:yellowgreen
+}
+
+header img{
+   width: 50px;
+   height: 50px;
+   background-color: aliceblue;
+}
+
+.navigation-menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation-menu li{
+    margin: 5px 20px 7px 10px;
 }
